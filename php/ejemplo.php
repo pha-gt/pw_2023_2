@@ -1,0 +1,3 @@
+<?php  
+/*primera linea*/
+?>
