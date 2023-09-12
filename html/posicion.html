@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posiciones</title>
+    <style>
+        .cajas{
+            width: 120px;
+            height: 70px;
+            border: 3px solid red;
+        }
+        .caja-inferior{
+            width: 120px;
+            height: 70px;
+            border: 3px solid red;
+            background-color: cyan;
+            /*position: static;*/
+            top: 20px;
+            left: 50px;
+        }
+
+        .caja-inferior_relativa {
+            width: 120px;
+            height: 70px;
+            border: 3px solid red;
+            background-color: blue;
+            position: relative;
+            top: 20px;
+            left: 50px;
+        }
+
+        .caja-inferior_absoluta {
+            width: 120px;
+            height: 70px;
+            border: 3px solid red;
+            background-color: green;
+            position: absolute;
+            top: 20px;
+            left: 50px;
+        }
+        .caja-inferior_fija {
+            width: 120px;
+            height: 70px;
+            border: 3px solid red;
+            background-color: orange;
+            position: fixed;
+            top: 20px;
+            left: 50px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <h2>Posición por default</h2>
+    
+    <div class="cajas">D A</div>
+    <div class="caja-inferior">D B</div>
+
+    <h2>Posición relative</h2>
+    <div class="cajas">R A</div>
+    <div class="caja-inferior_relativa">R B</div>
+
+    <h2>Posición absoluta</h2>
+    <form >
+        <div class="cajas">A A</div>
+        <div class="caja-inferior_absoluta">A B</div>
+    </form>
+
+    <h2>Posición fija</h2>
+    <div >
+        <div class="cajas">F A</div>
+        <div class="caja-inferior_fija">F B</div>
+    </div>
+
+
+
+</body>
+</html>
