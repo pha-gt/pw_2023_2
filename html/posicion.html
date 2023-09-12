@@ -10,11 +10,11 @@
             height: 70px;
             border: 3px solid red;
         }
-        .caja-inferior{
+        .caja-inferior{    
             width: 120px;
             height: 70px;
             border: 3px solid red;
-            background-color: cyan;
+            background-color: rgb(38, 0, 255);
             /*position: static;*/
             top: 20px;
             left: 50px;
@@ -38,6 +38,7 @@
             position: absolute;
             top: 20px;
             left: 50px;
+            z-index: 10;
         }
         .caja-inferior_fija {
             width: 120px;
@@ -47,6 +48,8 @@
             position: fixed;
             top: 20px;
             left: 50px;
+            z-index: -1;
+
         }
 
 
@@ -58,11 +61,11 @@
     
     <div class="cajas">D A</div>
     <div class="caja-inferior">D B</div>
-
+<!--
     <h2>Posición relative</h2>
     <div class="cajas">R A</div>
     <div class="caja-inferior_relativa">R B</div>
-
+-->
     <h2>Posición absoluta</h2>
     <form >
         <div class="cajas">A A</div>
