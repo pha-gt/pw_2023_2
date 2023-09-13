@@ -37,7 +37,6 @@ function sumar_especial($x,$y=10)
 }
 
 
-
 saludar();
 echo "Suma de 27 + 43: ".sumar(27,43)."<br>";
 echo "Suma de 27 : ".sumar_especial(27,5)."<br>";

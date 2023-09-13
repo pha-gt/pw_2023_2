@@ -44,7 +44,7 @@ obtener_cadena(x,y,direccion,longitud)
 			sino 
 				return null
 		caso 2 //abajo:
-			si()
+			si(y+longitud<10 )
 				incremento_y=1
 			sino return null
 
