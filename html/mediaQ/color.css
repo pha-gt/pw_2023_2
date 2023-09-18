@@ -1,0 +1,18 @@
+/* Definimos el color de fondo como verde */
+body {
+    background-color: green;
+  }
+  
+  /* Si nuestra pantalla mide 992 pixeles o menos, el color de fondo se define como azul */
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
+  
+  /* En tamaños de pantalla de 600px o menos, definimos el color como amarillo */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: yellow;
+    }
+  }
