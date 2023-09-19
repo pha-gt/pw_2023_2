@@ -22,10 +22,7 @@ class ClasePlusplus{
         $this->edad = $_edad;
     }
 
-    public impimir()
-    {
-        
-    }
+    
 
 }
 
