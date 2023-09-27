@@ -38,15 +38,15 @@ $mascota5 = (object)[
     "genero" => "Macho",
     "color" => "Negro"
 ];
-array_push($lista_mascotas,$mascota5);
+//array_push($lista_mascotas,$mascota5);
 
 $mascota6 = (object)[
-    "nombre" => "Luna",
+    "nombre" => "Keeley",
     "animal" => "Gato",
     "genero" => "Hembra",
     "color" => "Gris/Naranja"
 ];
-array_push($lista_mascotas,$mascota6);
+//array_push($lista_mascotas,$mascota6);
 
 ?>
 
